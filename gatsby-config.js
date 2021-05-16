@@ -3,7 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Aneem Patrabansha',
-    description: 'Aneem Patrabansha is a software engineer who specializes in doing random stuffs.',
+    description: 'Aneem Patrabansha is a software engineer who specializes in web app devlopment.',
     siteUrl: 'https://aneem.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
