@@ -58,14 +58,18 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hello, my name is</h1>;
+  const one = (
+    <h1>
+      <b>Hello</b>, my name is
+    </h1>
+  );
   const two = <h2 className="big-heading">Aneem Patrabansha.</h2>;
   const three = <h3 className="big-heading">I am a problem solver.</h3>;
   const four = (
     <p>
-      I'm a N-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://yara.com/">Yara</a> focused on building accessible, human-centered products.
+      I'm a software engineer who specializes in building highly available distributed systems.
+      Currently, I'm an engineer at <a href="https://yara.com/">Yara</a> focused on improving
+      agriculture through technology.
     </p>
   );
   const five = (

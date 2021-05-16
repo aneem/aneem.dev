@@ -2,21 +2,22 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
+    --dark-navy: #222831;
     --navy: #222831;
-    --light-navy: #112240;
+    --light-navy: #393e46;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --dark-slate: #fcefef;
+    --slate: #f2fdff;
+    --light-slate: #fcefef;
+    --lightest-slate: #fcefef;
     --white: #eeeeee;
     --green: #00adb5;
     --green-tint: rgba(0, 173, 181, 0.1);
+    --green40: rgba(0, 173, 181, 0.4);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
-    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --font-mono: 'Fira Code', 'SF Mono', 'Fira Mono', 'Roboto Mono', monospace;
 
     --fz-xxs: 12px;
     --fz-xs: 13px;
@@ -27,7 +28,7 @@ const variables = css`
     --fz-xxl: 22px;
     --fz-heading: 32px;
 
-    --border-radius: 4px;
+    --border-radius: 10px;
     --nav-height: 100px;
     --nav-scroll-height: 70px;
 
