@@ -189,6 +189,7 @@ const Projects = () => {
     }
   `);
 
+  // eslint-disable-next-line no-unused-vars
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
@@ -293,10 +294,10 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      {/* Disabling show more for now until i have more projects to display */}
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
     </StyledProjectsSection>
   );
 };

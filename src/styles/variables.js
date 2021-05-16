@@ -14,7 +14,7 @@ const variables = css`
     --white: #eeeeee;
     --green: #00adb5;
     --green-tint: rgba(0, 173, 181, 0.1);
-    --green40: rgba(0, 173, 181, 0.4);
+    --green50: rgba(0, 173, 181, 0.5);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'Fira Code', 'SF Mono', 'Fira Mono', 'Roboto Mono', monospace;

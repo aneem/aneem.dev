@@ -1,13 +1,13 @@
 ---
-date: '1'
+date: '2017-09-08'
 title: 'NEPSE'
-cover: './nepse.png'
 tech:
   - Angular
   - Typescript
   - Java
   - RabbitMQ
-showInProjects: true
+company: 'LIS Nepal'
+showInProjects: false
 ---
 
 Online stock trading platform allowing brokers/clients to execute orders (equities, bonds, mutual funds) and manage user portfolios.
