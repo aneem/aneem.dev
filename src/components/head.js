@@ -45,6 +45,11 @@ const Head = ({ title, description, image }) => {
       <meta property="og:image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />
+      <script
+        async
+        defer
+        data-website-id="59e0d2ef-343c-465f-b449-73ca0cdc3a98"
+        src="https://umami-production-e33a.up.railway.app/umami.js"></script>
     </Helmet>
   );
 };
